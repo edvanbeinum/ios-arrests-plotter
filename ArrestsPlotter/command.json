@@ -1,0 +1,23 @@
+{
+    "originalViewId":"3i3v-ibrt",
+    "name":"Inline View",
+    "query":{
+        "filterCondition":{
+            "type":"operator",
+            "value":"WITHIN_CIRCLE",
+            "children":[ {
+                        "type":"column",
+                        "columnFieldName": "location_1"
+                        }, {
+                        "type":"literal",
+                        "value": %f
+                        }, {
+                        "type":"literal",
+                        "value": %f
+                        }, {
+                        "type":"literal",
+                        "value": %f
+                        } ]
+        }
+    }
+}
